@@ -1,8 +1,8 @@
-public class Pessoa {
+public class Pessoa extends Animal {
 
     //atributos
 
-    String nome;
+
     String sobrenome;
 
 
@@ -18,9 +18,13 @@ public class Pessoa {
     Pessoa() {
 
     }
-    Pessoa(String nome){
+    Pessoa(String nome) {
      this.nome = nome;
+
      }
+    public void comer(){
+        System.out.println("pessoa comeu!!!!!!!!!!!!!!");
+    }
 }
 
 
